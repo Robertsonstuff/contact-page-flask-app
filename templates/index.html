@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <meta name="author" content="Luke Robertson" />
+    <meta name="description" content="Canberra based musician. 15+years of playing professionally has taught me so much about music, business and life. This is a platform of discovery, insights, stories and all the interesting nuggets in between. Through my experience, I hope you learn something that helps you in your journey." />
+    <link rel="icon" type="image/x-icon" href="../static/face.ico" />
+    <title>Let's Connect!! | Luke Robertson's Blog Database</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/logo.png" alt="Luke Robertson logo" class="logo">
+        <!--to do - message -->
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <h3>What's your name?</h3>
+                <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div class="form-group">
+                <h3>What's your E-mail?</h3>
+                <input type="text" name="email" placeholder="E-mail" />
+            </div>
+            <div class="form-group">
+                <h3>Where did you find me?</h3>
+                <select name="where">
+                    <option value="">Pick a place</option>
+                    <option value="YouTube">YouTube</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Tiktok">Tiktok</option>
+                    <option value="My website">My website</option>
+                    <option value="Spotify">Spotify</option>
+                    <option value="We are already mate's">We are already mates</option>
+                    <option value="Your mate told you about me">Your mate told you about me</option>
+                    <option value="I can't remember">I can't remember</option>
+                <select>
+            </div>
+            <div class="form-group">
+                <h3>Comments about your experience</h3>
+                <textarea
+                name="comments"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Please add anything else you'd like. "></textarea>
+            </div>
+            <input type="submit" value="Submit" class="btn" />
+        </form>
+    </div>
+</body>
+</html>
